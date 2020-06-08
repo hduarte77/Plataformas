@@ -3,6 +3,6 @@
 
 Materia: Plataformas de Software para control de Procesos
 
-Cetys Universidas
+Cetys Universidad
 
-Humberto Duarte Ortiz
+Humberto Duarte Ortiz (m036421)

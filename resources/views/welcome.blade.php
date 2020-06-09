@@ -135,7 +135,7 @@
             <div class="row">
                                                        
                 <div class="col-lg-8">
-                    <form class="form-inline" method="post" action="/filtro">
+                    <form class="form-inline" method="post" action="filtro">
                       @csrf
                         
                               <div class="form-group mr-sm-3">

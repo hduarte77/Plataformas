@@ -17,5 +17,11 @@
         "resolve-url-loader": "^3.1.0",
         "sass": "^1.15.2",
         "sass-loader": "^8.0.0"
+    },
+    "dependencies": {
+        "bootstrap-datetimepicker": "0.0.7",
+        "bootstrap-datetimepicker.js": "^1.0.0",
+        "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+        "fusioncharts": "^3.15.1-sr.1"
     }
 }

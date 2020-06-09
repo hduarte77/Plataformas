@@ -15,14 +15,8 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-  <!-- Custom styles for this template-->
-  
-  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-
-
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
 
@@ -34,6 +28,7 @@
     #reporte_filter{
       display:none;
     }
+
   </style>
 
 </head>
@@ -64,45 +59,7 @@
           <span>Dashboard</span></a>
       </li>
 
-      <!-- Divider -->
       
-
-      <!-- Heading -->
-      <!-- <div class="sidebar-heading">
-        Histórico
-      </div> -->
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <!-- <li class="nav-item">
-        <a class="nav-link " href="#">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Mediciones</span>
-        </a>
-      </li> -->
-
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span>Alarmas</span>
-        </a>
-        
-      </li> -->
-
-      <!-- Nav Item - Utilities Collapse Menu -->
-     <!--  <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span>Acciones de Control</span>
-        </a>
-        
-      </li>  -->
-
-      <!-- Divider -->
-      
-
-
-     
-
-      <!-- Divider -->
       
 
       <!-- Sidebar Toggler (Sidebar) -->
@@ -528,16 +485,7 @@
 
                 // Configuration options go here
                 options: {
-                  scales: {
-                    
-                    yAxes: [{
-                            // display: true,
-                            // ticks: {
-                            //     beginAtZero: false,
-                            //     // max: 40
-                            // }
-                        }]
-                  },
+                  
                 },
                 
             });

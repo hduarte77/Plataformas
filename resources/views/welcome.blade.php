@@ -217,6 +217,100 @@
                   </div>
                 </div>
 
+                <div class="col-xl-4 col-md-7 mb-4">
+                  <div class="card border-left-info shadow h-100 py-2">
+                    <div class="card-body">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                          <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            LPG
+                          </div>
+                          
+                            <div class="mb-0 text-gray-800">
+                              min:{{ number_format($datos->min('lpg'),2) }} 
+                              avg:{{ number_format($datos->avg('lpg'),2) }} 
+                              max:{{ number_format($datos->max('lpg'),2) }} 
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                          <i class="fa fa-gas fa-2x text-gray-300"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-md-7 mb-4">
+                  <div class="card border-left-info shadow h-100 py-2">
+                    <div class="card-body">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                          <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            CO
+                          </div>
+                          
+                            <div class="mb-0 text-gray-800">
+                              min:{{ number_format($datos->min('co'),2) }} 
+                              avg:{{ number_format($datos->avg('co'),2) }} 
+                              max:{{ number_format($datos->max('co'),2) }} 
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                          <i class="fa fa-gas fa-2x text-gray-300"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-xl-4 col-md-7 mb-4">
+                  <div class="card border-left-info shadow h-100 py-2">
+                    <div class="card-body">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                          <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Alcohol
+                          </div>
+                          
+                            <div class="mb-0 text-gray-800">
+                              min:{{ number_format($datos->min('al'),2) }} 
+                              avg:{{ number_format($datos->avg('al'),2) }} 
+                              max:{{ number_format($datos->max('al'),2) }} 
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                          <i class="fa fa-gas fa-2x text-gray-300"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-xl-4 col-md-7 mb-4">
+                  <div class="card border-left-info shadow h-100 py-2">
+                    <div class="card-body">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                          <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Propano
+                          </div>
+                          
+                            <div class="mb-0 text-gray-800">
+                              min:{{ number_format($datos->min('pro'),2) }} 
+                              avg:{{ number_format($datos->avg('pro'),2) }} 
+                              max:{{ number_format($datos->max('pro'),2) }} 
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                          <i class="fa fa-gas fa-2x text-gray-300"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
           </div>
 
    

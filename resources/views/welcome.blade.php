@@ -42,7 +42,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
@@ -59,13 +59,6 @@
           <span>Dashboard</span></a>
       </li>
 
-      
-      
-
-      <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
 
     </ul>
     <!-- End of Sidebar -->
@@ -91,11 +84,11 @@
 
             <div class="row">
                                                        
-                <div class="col-lg-8">
+                <div class="col-lg-10">
                     <form class="form-inline" method="post" action="filtro">
                       @csrf
                         
-                              <div class="form-group mr-sm-3">
+                              <div class="form-group mr-sm-4">
                                 
 
                                 <div class="input-group date" id="fecha1_control" data-target-input="nearest">
@@ -114,7 +107,7 @@
 
                               </div>
 
-                              <div class="form-group mr-sm-3">
+                              <div class="form-group mr-sm-4">
                           
                                 
                                 <div class="input-group date" id="fecha2_control" data-target-input="nearest">

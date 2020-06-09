@@ -249,6 +249,10 @@
                             <th>Temp</th>
                             <th>Humedad</th>
                             <th>H2</th>
+                            <th>LPG</th>
+                            <th>CO</th>
+                            <th>Alcohol</th>
+                            <th>Propano</th>
 
                         </tr>
                     </thead>
@@ -258,7 +262,11 @@
                                 <td>{{ $medicion->fecha}}</td>
                                 <td>{{ $medicion->temperatura}}</td>
                                 <td>{{ $medicion->humedad}}</td>
-                                <td></td>
+                                <td>{{ $medicion->h2}}</td>
+                                <td>{{ $medicion->lpg}}</td>
+                                <td>{{ $medicion->co}}</td>
+                                <td>{{ $medicion->al}}</td>
+                                <td>{{ $medicion->pro}}</td>
                             </tr>
                         @endforeach
                     </tbody>
